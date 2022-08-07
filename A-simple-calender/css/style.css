@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(73, 199, 241);
+    box-sizing: border-box;
+}
+
+label{
+    font-size: 1.4em;
+    margin-left: 5px;
+}
+
+ul{
+
+
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: minmax(150px, auto);
+background-color: rgb(16, 231, 238);
+color: #444;
+list-style: none;
+
+}
+li{
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: #000;
+    margin: 1rem;
+    background-color:whitesmoke;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 15px black;
+}
+select{
+    padding: 6px;
+    font-size: 1.3em;
+    background-color: rgb(34, 239, 239);
+    border: none;
+    margin-left: 4px;
+}
